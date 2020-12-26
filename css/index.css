@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+    height: 10vh;
+}
+/* Main Area  */
+.container {
+    padding:0 100px;
+    background-color:whitesmoke;
+}
+
+
+/* Content Area  */ 
+
+.subcontainer {
+    width: 100%;
+    float: left;
+    text-align: justify;
+    line-height: 25px;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.8);
+    padding: 50px 0;
+
+    
+}
+
+/* Image Thumbnail  */
+.img-thumbnail {
+    position: relative;
+    text-align: center;
+    
+}
+.img-thumbnail img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid darkgray;
+}
+#imgtext{
+    font-style: italic;
+    text-indent: 0;
+}
+
+/* Introduction Text  */
+#introductionHeading {
+    padding: 5px 50px;
+}
+#introductionText {
+    text-indent: 50px;   
+}
+
+/* About Section  */
+.educationHeading {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#educationHeading hr {
+    width: 25%;
+    margin: 20px 0;
+
+}
+table {
+    padding: 50px;
+    width: 100%;
+    margin: 20px 0;
+    
+}
+
+
+
+/* Footer  */
+.footer {
+    background-color: cadetblue;
+    height: 10vh;
+}
+.container::after {
+    content: " ";
+    display: block;
+    clear: both;
+    
+}
